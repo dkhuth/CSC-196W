@@ -2,10 +2,12 @@ h1{font-size:200%};
 ul {
     display: flex;
     list-style: none;
-  }
-li {
     border: 1pt;
     border-color: black;
+    border-style: double;
+  }
+li {
+    
     padding: .10em;
   }
 .container{
