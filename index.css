@@ -3,7 +3,7 @@ ul {
     display: flex;
     list-style: none;
   }
-  li {
+li {
     border: 2px solid rgb(14, 14, 48);
     padding: .5em;
   }
