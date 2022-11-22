@@ -5,6 +5,7 @@ ul {
   }
 li {
     border: 1pt;
+    border-color: black;
     padding: .10em;
   }
 .container{
