@@ -1,1 +1,9 @@
 h1{font-size:200%};
+ul {
+    display: flex;
+    list-style: none;
+  }
+  li {
+    border: 2px solid rgb(14, 14, 48);
+    padding: .5em;
+  }
