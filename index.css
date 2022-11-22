@@ -4,7 +4,7 @@ ul {
     list-style: none;
   }
 li {
-    
+    border: 1pt;
     padding: .10em;
   }
 .container{
