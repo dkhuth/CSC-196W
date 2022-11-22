@@ -4,8 +4,8 @@ ul {
     list-style: none;
   }
 li {
-    border: 2px solid rgb(14, 14, 48);
-    padding: .5em;
+    
+    padding: .10em;
   }
 .container{
     display: flex;
