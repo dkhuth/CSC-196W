@@ -16,7 +16,8 @@ function boringBetty() {
 }
 
 function moo() {
+    var suffix = '-Moo'
     var str = document.getElementById("input");
     var parts = str.value.split(".");  
-    str.value = parts.join("-Moo");
+    str.value = parts.join(suffix);
 }
