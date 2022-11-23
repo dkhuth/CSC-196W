@@ -18,10 +18,10 @@ console.log("Window loaded!");
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
+   
+  }
     var button = document.getElementById("encrypt-it");
     button.addEventListener('click',handleClick());
-  }
-
 
 
   function handleClick(){
