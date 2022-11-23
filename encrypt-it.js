@@ -25,7 +25,7 @@ console.log("Window loaded!");
 
 
   function handleClick(cypher){
-    
+    alert("HELLO");
     console.log("encrypt-it");
 
 
