@@ -11,24 +11,23 @@ console.log("Window loaded!");
    * on the page. When this event occurs, the attached function (init) will be called.
    */
   window.addEventListener("load", init);
-
+  const button = document.getElementById("encrypt-it")
+  button.addEventListener("click",handleClick)
   /**
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
-    var text = document.getElementById("input-text");
-    var shiftOrRan = document.getElementById("cipher-type").value;
-    const encrypt = document.getElementById("encrypt-it")
-    encrypt.addEventListener("click",handleClick(shiftOrRan,text));
+    
   }
 
-  function handleClick(value,text){
+  function handleClick(){
     
-    if(value == "shift"){
-      return shiftCipher(text);
-    }
+    console.log("encrypt-it");
 
 
+  }
+  function toUpper() {
+   
   }
 
   // Add any other functions in this area (you should not implement your
