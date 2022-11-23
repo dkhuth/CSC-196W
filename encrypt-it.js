@@ -18,13 +18,13 @@ console.log("Window loaded!");
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
-    const button = document.querySelector("encrypt-it");
-    button.addEventListener('click',handleClick(document.getElementById("cipher-type")));
+    var button = document.getElementById("encrypt-it");
+    button.addEventListener('click',handleClick());
   }
 
 
 
-  function handleClick(cypher){
+  function handleClick(){
     alert("HELLO");
     console.log("encrypt-it");
 
