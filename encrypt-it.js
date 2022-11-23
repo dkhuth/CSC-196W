@@ -18,15 +18,16 @@
    */
   function init() {
     console.log("Window loaded!");
-   document.getElementById("encrypt-it").addEventListener('click',handleClick);
-   
+    document.getElementById("encrypt-it").addEventListener('click',handleClick);
+    document
     
   }
   
 
 
   function handleClick(){
-    alert("HELLO");
+    var plainText = document.getElementById("input-text").value;
+    document.getElementById("result").innerText = shift(plainText);
     console.log("button clicked");
 
 
