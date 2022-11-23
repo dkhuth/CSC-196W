@@ -27,7 +27,7 @@
 
   function handleClick(){
     var plainText = document.getElementById("input-text").value;
-    document.getElementById("result").innerText = shift(plainText);
+    document.getElementById("result").innerText = shiftCipher(plainText);
     console.log("button clicked");
 
 
