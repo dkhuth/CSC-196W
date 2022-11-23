@@ -18,10 +18,9 @@ console.log("Window loaded!");
    */
   function init() {
     var button = document.getElementById("encrypt-it");
-  }
-  if(button){
     button.addEventListener("click",handleClick(e));
   }
+
 
   function handleClick(e){
     
