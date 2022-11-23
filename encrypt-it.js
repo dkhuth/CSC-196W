@@ -12,7 +12,7 @@ console.log("Window loaded!");
    */
   window.addEventListener("load", init);
   const button = document.getElementById("encrypt-it")
-  button.addEventListener("click",handleClick)
+  button.addEventListener("click",handleClick(e))
   /**
    * TODO: Write a function comment using JSDoc.
    */
@@ -20,7 +20,7 @@ console.log("Window loaded!");
     
   }
 
-  function handleClick(){
+  function handleClick(e){
     
     console.log("encrypt-it");
 
