@@ -25,8 +25,8 @@ console.log("Window loaded!");
 
 
   function handleClick(){
-    return alert("HELLO");
-    console.log("encrypt-it");
+    alert("HELLO");
+    return console.log("encrypt-it");
 
 
   }
