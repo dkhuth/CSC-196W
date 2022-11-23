@@ -1,7 +1,6 @@
 /*
  * Starter file 
  */
-console.log("Window loaded!");
 (function() {
   "use strict";
 
@@ -18,8 +17,8 @@ console.log("Window loaded!");
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
-    var button = document.getElementById("encrypt-it")
-    button.addEventListener('click',handleClick());
+    console.log("Window loaded!");
+    document.getElementById("encrypt-it").addEventListener('click',handleClick());
     
   }
   
