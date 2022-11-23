@@ -11,15 +11,15 @@ console.log("Window loaded!");
    * on the page. When this event occurs, the attached function (init) will be called.
    */
   window.addEventListener("load", init);
-  var button = document.getElementById("encrypt-it");
-  button.addEventListener('click',handleClick());
+ 
   
  
   /**
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
-    
+    var button = document.getElementById(encrypt-it);
+    button.addEventListener('click',handleClick());
   }
   
 
