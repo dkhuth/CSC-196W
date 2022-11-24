@@ -60,10 +60,7 @@ button:hover{
 
 }
 
-.container{
-    display: flex;
-}
-body{
-    background-image: linear-gradient(105deg, rgba(0, 47, 255, 0.767) 39%, rgba(51,56,57,1) 96%);
+*{
+    background-image: linear-gradient(105deg, rgba(0, 0, 228, 0.767) 39%, rgba(51,56,57,1) 96%);
   }
   
