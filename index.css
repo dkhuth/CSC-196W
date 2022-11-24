@@ -22,7 +22,7 @@ header{
 }
 
 .logo{
-  display: inline-block;
+  color: rgb(225, 165, 165);
   font-family: 'Bebas Neue', cursive;
   font-weight: 600;
   font-size: 20px;
