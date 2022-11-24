@@ -66,7 +66,7 @@
 
   function reset(){
     document.getElementById("all-caps").checked = false;
-    document.getElementById("result").innerText =" ";
+    document.getElementById("result").innerText ="";
     document.getElementById("input-text").value="";
     document.getElementById("result").style.fontSize = "12pt";
     document.getElementById("normal-size").checked = true;
