@@ -53,13 +53,14 @@
     
   
   function upper() {
+    var text = document.getElementById("result")
     if(document.getElementById("all-caps").checked){
       
-      document.getElementById("result").innerText.toUpperCase();
+      text.innerText.toUpperCase();
     
     }else{
 
-      document.getElementById("result").innerText.toLowerCase();
+     text.innerText.toLowerCase();
     }
    
   }
