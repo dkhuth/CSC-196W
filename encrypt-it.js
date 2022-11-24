@@ -19,7 +19,8 @@
   function init() {
     console.log("Window loaded!");
     document.getElementById("encrypt-it").addEventListener('click',handleClick);
-    document
+    document.getElementById("large-text-size").addEventListener("click", fontSize);
+		document.getElementById("default-text-size").addEventListener("click", fontSize);
     
   }
   
@@ -33,6 +34,20 @@
     console.log("button clicked");
 
 
+  }
+  function fontSize(){
+    if (document.getElementById("default-text-size").checked){
+			
+      document.getElementById("result").style.fontSize = "12pt";
+		
+    } else {
+			
+      document.getElementById("result").style.fontSize = "24pt";
+		
+    }
+	}
+
+    
   }
   function toUpper() {
    
