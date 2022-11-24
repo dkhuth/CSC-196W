@@ -3,24 +3,25 @@
 h1{font-size:200%;
     align-self: center };
 ul {
-    display: flex;
-    list-style: none;
-    border: 1pt;
-    border-color: black;
-    border-style: double;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px, 10%;
+  
   
 }
 
-li.item {
+li,a,button {
   font-family: 'Bebas Neue', cursive;
   font-weight: 500;
   font-size: 16px;
   color: dimgrey;
   text-decoration: none;
   
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10%;
+
 }
 
 .container{
