@@ -5,7 +5,7 @@
   }
 
   h1{
-
+  justify-content:center;
   font-family: 'Bebas Neue', cursive;
   color: rgb(225, 165, 165);
   font-size:200%;
@@ -24,7 +24,7 @@ li,a,button {
 
 header{
   display: flex;
-  justify-content: flex-end;
+  justify-content:center;
   align-items: center;
   padding: 30px, 10%;
 
