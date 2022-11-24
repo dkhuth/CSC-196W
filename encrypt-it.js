@@ -18,20 +18,59 @@
    */
   function init() {
     console.log("Window loaded!");
-    document.getElementById("encrypt-it").addEventListener('click',handleClick());
+    document.getElementById("encrypt-it").addEventListener('click',handleClick);
+    document.getElementById("normal-size").addEventListener("click", fontSize);
+		document.getElementById("bigger-size").addEventListener("click", fontSize);
+    document.getElementById("all-caps").addEventListener("change", upper);
+    document.getElementById("reset").addEventListener('click',reset);
     
   }
   
 
 
   function handleClick(){
-    alert("HELLO");
+    var plainText = document.getElementById("input-text").value;
+    var ciphertext =shiftCipher(plainText);
+    ciphertext =shiftCipher(ciphertext);
+    document.getElementById("result").innerText = ciphertext;
     console.log("button clicked");
 
 
   }
-  function toUpper() {
+  
+  function fontSize(){
+    if (document.getElementById("normal-size").checked){
+			
+      document.getElementById("result").style.fontSize = "12pt";
+		
+    } else {
+			
+      document.getElementById("result").style.fontSize = "24pt";
+		
+    }
+	}
+
+    
+  
+  function upper() {
+    var text = document.getElementById("result")
+    if(document.getElementById("all-caps").checked){
+      
+      text.innerText.toUpperCase();
+    
+    }else{
+
+     text.innerText.toLowerCase();
+    }
    
+  }
+
+  function reset(){
+    document.getElementById("all-caps").checked = false;
+    document.getElementById("result").innerText ="";
+    document.getElementById("input-text").value="";
+    document.getElementById("result").style.fontSize = "12pt";
+    document.getElementById("normal-size").checked = true;
   }
 
   // Add any other functions in this area (you should not implement your
@@ -58,4 +97,4 @@ function shiftCipher(text) {
   }
   return result;
 }
-})();
+}());
