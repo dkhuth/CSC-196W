@@ -19,8 +19,8 @@
   function init() {
     console.log("Window loaded!");
     document.getElementById("encrypt-it").addEventListener('click',handleClick);
-    document.getElementById("large-text-size").addEventListener("click", fontSize);
-		document.getElementById("default-text-size").addEventListener("click", fontSize);
+    document.getElementById("normal-size").addEventListener("click", fontSize);
+		document.getElementById("bigger-size").addEventListener("click", fontSize);
     document.getElementById("all-caps").addEventListener("change", upper);
     document.getElementById("reset").addEventListener('click',reset);
     
@@ -39,7 +39,7 @@
   }
   
   function fontSize(){
-    if (document.getElementById("default-text-size").checked){
+    if (document.getElementById("normal-size").checked){
 			
       document.getElementById("result").style.fontSize = "12pt";
 		
@@ -69,7 +69,7 @@
     document.getElementById("results").innerText ="";
     document.getElementById("input-text").value="";
     document.getElementById("result").style.fontSize = "12pt";
-    document.getElementById("default-text-size").checked = true;
+    document.getElementById("normal-size").checked = true;
   }
 
   // Add any other functions in this area (you should not implement your
