@@ -24,6 +24,42 @@ header{
 
 }
 
+.logo{
+  cursor: pointer;
+}
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px, 20px;
+
+}
+
+.nav_links a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: bisque;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(2, 2, 2, 0.767);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  
+  background-color: rgba(2, 2, 2, 0.767,0.8);
+
+}
+
 .container{
     display: flex;
 }
