@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-h1{font-size:200%;
-    align-self: center };
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size:200%;
+  align-self: center 
+  };
 
 
 li,a,button {
