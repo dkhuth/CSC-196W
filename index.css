@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+*{
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(225, 165, 165);
+  }
 h1{
   padding: 30px, 10%;
   font-family: 'Bebas Neue', cursive;
