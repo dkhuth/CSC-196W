@@ -55,18 +55,18 @@
   function upper() {
     if(document.getElementById("all-caps").checked){
       
-      document.getElementById("results").toUpper;
+      document.getElementById("results").toUpperCase();
     
     }else{
 
-      document.getElementById("results").toLowerCase;
+      document.getElementById("results").toLowerCase();
     }
    
   }
 
   function reset(){
     document.getElementById("all-caps").checked = false;
-    document.getElementById("results").innerText ="";
+    document.getElementById("results").innerText =" ";
     document.getElementById("input-text").value="";
     document.getElementById("result").style.fontSize = "12pt";
     document.getElementById("normal-size").checked = true;
