@@ -38,6 +38,7 @@ header{
 }
 
 .nav_links a{
+  color: rgb(225, 165, 165);
   transition: all 0.3s ease 0s;
 }
 
