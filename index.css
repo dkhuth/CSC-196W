@@ -2,11 +2,12 @@
 *{
   font-family: 'Bebas Neue', cursive;
   color: rgb(225, 165, 165);
-  display: flex;
-  justify-content:center;
+ 
   }
 
   h1{
+  display: flex;
+  justify-content:center;
   font-family: 'Bebas Neue', cursive;
   color: rgb(225, 165, 165);
   font-size:200%;
