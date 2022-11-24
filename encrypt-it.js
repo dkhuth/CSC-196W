@@ -55,11 +55,11 @@
   function upper() {
     if(document.getElementById("all-caps").checked){
       
-      document.getElementById("results").toUpperCase();
+      document.getElementById("results").innertext.toUpperCase();
     
     }else{
 
-      document.getElementById("results").toLowerCase();
+      document.getElementById("results").innertext.toLowerCase();
     }
    
   }
