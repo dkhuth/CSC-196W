@@ -2,10 +2,7 @@
 
 h1{font-size:200%;
     align-self: center };
-ul {
-  
-  
-}
+
 
 li,a,button {
   font-family: 'Bebas Neue', cursive;
@@ -25,7 +22,10 @@ header{
 }
 
 .logo{
-  cursor: pointer;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 600;
+  font-size: 20px;
 }
 .nav_links{
   list-style: none;
