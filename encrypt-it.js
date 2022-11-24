@@ -21,6 +21,8 @@
     document.getElementById("encrypt-it").addEventListener('click',handleClick);
     document.getElementById("large-text-size").addEventListener("click", fontSize);
 		document.getElementById("default-text-size").addEventListener("click", fontSize);
+    document.getElementById("all-caps").addEventListener("change", upper);
+    document.getElementById("reset").addEventListener('click',reset);
     
   }
   
@@ -35,6 +37,7 @@
 
 
   }
+  
   function fontSize(){
     if (document.getElementById("default-text-size").checked){
 			
@@ -48,9 +51,25 @@
 	}
 
     
-  }
-  function toUpper() {
+  
+  function upper() {
+    if(document.getElementById("all-caps").checked){
+      
+      document.getElementById("results").toUpper;
+    
+    }else{
+
+      document.getElementById("results").toLowerCase;
+    }
    
+  }
+
+  function reset(){
+    document.getElementById("all-caps").checked = false;
+    document.getElementById("results").innerText ="";
+    document.getElementById("input-text").value="";
+    document.getElementById("result").style.fontSize = "12pt";
+    document.getElementById("default-text-size").checked = true;
   }
 
   // Add any other functions in this area (you should not implement your
@@ -77,4 +96,4 @@ function shiftCipher(text) {
   }
   return result;
 }
-})();
+}());
